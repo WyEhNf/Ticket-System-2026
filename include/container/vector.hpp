@@ -234,7 +234,6 @@ public:
 
       size_ = other.size_;
       return *this;
-      ·
     }
     for (size_t i = 0; i < size_; ++i)
       data[i].~T();
